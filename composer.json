@@ -30,7 +30,7 @@
   "require": {
     "php": ">=7.2.0",
     "laravel/nova": "^3.0",
-    "optimistdigital/nova-translations-loader": "^3.0.0"
+    "optimistdigital/nova-translations-loader": "dev-v4-rework"
   },
   "autoload": {
     "psr-4": {
@@ -48,5 +48,11 @@
     "sort-packages": true
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "repositories": [
+      {
+          "type": "git",
+          "url": "https://github.com/mathieufrh/nova-translations-loader.git"
+      }
+  ]
 }
